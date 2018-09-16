@@ -95,7 +95,7 @@ const store = new Vuex.Store({
                     }
                 })
                 .catch(error => {
-                    this.$notify.error({
+                    Notification.error({
                         title: 'Error',
                         message: 'An error has occurred. Please try again.',
                         duration: 0
