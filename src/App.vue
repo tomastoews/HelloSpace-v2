@@ -4,7 +4,7 @@
     <el-row type="flex" justify="center">
       <el-col :sm="24" :md="24" :lg="16" :xl="16">
         <div id="content" v-loading="showLoadingAnimation">
-          <el-card class="box-card" :body-style="{ padding: '0' }">
+          <el-card class="container-card" :body-style="{ padding: '0' }">
             <el-row style="height:100%;">
               <el-col :xs="24" :sm="5" :md="5" :lg="5" :xl="5">
                 <sidebar/>
@@ -40,3 +40,7 @@ export default {
   })
 }
 </script>
+
+<style>
+  @import 'assets/css/styles.css';
+</style>

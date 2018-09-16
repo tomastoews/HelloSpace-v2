@@ -7,7 +7,6 @@ import 'element-ui/lib/theme-chalk/index.css';
 import { VueMasonryPlugin } from 'vue-masonry';
 
 import App from './App.vue';
-import './css/styles.css';
 
 Vue.use(ElementUI);
 Vue.use(VueMasonryPlugin);
