@@ -21,7 +21,7 @@
                         <div style="padding: 14px;">
                             <span>{{ item.title }}</span>
                             <div class="bottom clearfix">
-                                <el-button @click="openItem(item.id)" type="text" class="button">Anzeigen</el-button>
+                                <el-button @click="openItem(item.id)" type="text" class="button">Show</el-button>
                             </div>
                         </div>
                     </el-card>
