@@ -17,7 +17,7 @@
                         <img 
                             class="image"
                             draggable="false"
-                            :src="item.preview_image">
+                            :src="item.preview_image"/>
                         <div style="padding: 14px;">
                             <span>{{ item.title }}</span>
                             <div class="bottom clearfix">

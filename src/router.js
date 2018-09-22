@@ -17,6 +17,11 @@ const router = new VueRouter({
             component: Home
         },
         {
+            path: '*',
+            name: 'random',
+            component: Home
+        },
+        {
             path: '/search/',
             redirect: '/'
         },

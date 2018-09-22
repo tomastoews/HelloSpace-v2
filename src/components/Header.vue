@@ -5,7 +5,7 @@
             <el-row span="24" type="flex" justify="center" style="padding: 7rem 0 2rem 0;">
                 <el-col :xs="10" :sm="8" :md="6" :lg="5" :xl="4">
                     <router-link to="/">
-                        <img id="logo" draggable="false" src="../assets/hellospace_logo.png">
+                        <img id="logo" draggable="false" src="../assets/hellospace_logo.png"/>
                     </router-link>
                 </el-col>
             </el-row>

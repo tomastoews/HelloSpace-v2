@@ -1,5 +1,9 @@
 module.exports = {
-    baseUrl: process.env.NODE_ENV === 'production'
-      ? '/HelloSpace-v2/'
-      : '/'
-  }
+    baseUrl: '/HelloSpace-v2',
+    outputDir: undefined,
+    assetsDir: undefined,
+    runtimeCompiler: undefined,
+    productionSourceMap: undefined,
+    parallel: undefined,
+    css: undefined
+}

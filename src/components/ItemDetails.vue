@@ -16,7 +16,7 @@
                 </p>
             </el-col>
             <el-col :md="9" :lg="9" :xl="9">
-                <img draggable="false" class="image" :src="item.image" alt="Image">
+                <img draggable="false" class="image" :src="item.image" alt="Image"/>
             </el-col>
         </el-row>
     </div>

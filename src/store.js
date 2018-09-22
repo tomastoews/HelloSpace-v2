@@ -57,7 +57,7 @@ const store = new Vuex.Store({
                     commit('setSearchResults', response)
                 }
             })
-            .catch(error => {
+            .catch(() => {
                 Notification.error({
                     title: 'Error',
                     message: 'An error has occurred. Please try again.'
@@ -66,7 +66,7 @@ const store = new Vuex.Store({
             .then(() => commit('setLoadingAnimation', false))
         },
         searchItem ({commit}, id) {
-            return new Promise((resolve, reject) => {
+            return new Promise((resolve) => {
                 const baseURL = 'https://images-api.nasa.gov';
 
                 commit('setLoadingAnimation', true);
@@ -94,7 +94,7 @@ const store = new Vuex.Store({
                         });
                     }
                 })
-                .catch(error => {
+                .catch(() => {
                     Notification.error({
                         title: 'Error',
                         message: 'An error has occurred. Please try again.',
