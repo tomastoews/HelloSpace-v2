@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "lint": "vue-cli-service lint",
     "build": "vue-cli-service build",
-    "deploy": "netlify deploy --dir dist",
+    "deploy": "netlify deploy --dir dist --prod",
     "build-and-deploy": "vue-cli-service build && netlify deploy --dir dist"
   },
   "homepage": "https://tomastoews.github.io/HelloSpace-v2",
