@@ -1,5 +1,5 @@
 module.exports = {
-    baseUrl: '/HelloSpace-v2',
+    baseUrl: '',
     outputDir: undefined,
     assetsDir: undefined,
     runtimeCompiler: undefined,

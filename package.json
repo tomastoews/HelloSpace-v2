@@ -6,8 +6,8 @@
     "serve": "vue-cli-service serve",
     "lint": "vue-cli-service lint",
     "build": "vue-cli-service build",
-    "deploy": "gh-pages -d dist",
-    "build-and-deploy": "vue-cli-service build && gh-pages -d dist"
+    "deploy": "netlify deploy --dir dist",
+    "build-and-deploy": "vue-cli-service build && netlify deploy --dir dist"
   },
   "homepage": "https://tomastoews.github.io/HelloSpace-v2",
   "dependencies": {
