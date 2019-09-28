@@ -6,8 +6,9 @@
     "serve": "vue-cli-service serve",
     "lint": "vue-cli-service lint",
     "build": "vue-cli-service build",
-    "deploy": "netlify deploy --dir dist --prod",
-    "build-and-deploy": "vue-cli-service build && netlify deploy --dir dist"
+    "deploy-production": "scp -r dist/* {user}@{server}:/var/www/html/modernestate",
+    "deploy-to-netlify": "netlify deploy --dir dist --prod",
+    "build-and-deploy-to-netlify": "vue-cli-service build && netlify deploy --dir dist"
   },
   "homepage": "https://tomastoews.github.io/HelloSpace-v2",
   "dependencies": {
