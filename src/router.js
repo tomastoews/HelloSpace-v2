@@ -9,6 +9,10 @@ import { Notification } from 'element-ui';
 
 Vue.use(VueRouter);
 
+const base = process.env.NODE_ENV === 'production'
+            ? '/hellospace/'
+            : '/';
+
 const router = new VueRouter({
     routes: [
         {
@@ -40,7 +44,8 @@ const router = new VueRouter({
             component: ItemDetails
         }
     ],
-    mode: 'history'
+    base: base,
+    mode: 'history',
 });
 
 router.beforeEach((to, from, next) => {
