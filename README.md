@@ -3,4 +3,4 @@
 WebApp for searching space and astronomy photos using Vue.js, ElementUI and the NASA API.
 
 # Demo
-https://hellospace.netlify.com/
+https://www.projects.tomastoews.de/hellospace
