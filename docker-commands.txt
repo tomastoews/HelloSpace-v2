@@ -1,0 +1,9 @@
+
+# Docker Commands:
+	https://gist.github.com/bradtraversy/89fad226dc058a41b596d586022a9bd3
+
+# Build Container:
+	$ sudo docker build -t hellospace .
+
+# Run Container:
+	$ sudo docker container run -it -p 8083:80 hellospace

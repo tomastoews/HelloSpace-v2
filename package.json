@@ -10,7 +10,7 @@
     "deploy-to-netlify": "netlify deploy --dir dist --prod",
     "build-and-deploy-to-netlify": "vue-cli-service build && netlify deploy --dir dist"
   },
-  "homepage": "https://tomastoews.github.io/HelloSpace-v2",
+  "homepage": "/hellospace",
   "dependencies": {
     "axios": "^0.18.0",
     "element-ui": "^2.4.7",
